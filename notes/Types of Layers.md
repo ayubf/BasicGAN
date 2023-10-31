@@ -29,7 +29,6 @@ $$
 * Sigmoid function: takes any real number as input and squahses it into a number between 0 and 1
 * Applies non-linear operation on an input vector such that,
 
-
 $$
 \text{Output} = \{ \: \frac{1}{1+ e^{-x}} \: | \: x \in \text{input} \}
 $$
@@ -37,6 +36,7 @@ $$
 ## 4. [Tanh](https://pytorch.org/docs/stable/generated/torch.nn.Tanh.html)
 * Hyperbolic tangent function: takes any real number as input and squashes it between -1 and 1
 * Applies a non-linear operation on an input vector such that,
+
 $$
 \text{Output} = \{\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}} \: | \: x \in \text{input} \}
 $$
