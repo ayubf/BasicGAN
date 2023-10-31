@@ -15,13 +15,12 @@ $$
 * Applies non-linear operation on an input vector such that given $l$ as the leak parameter,
 
 $$
-
-\text{Output} = \{ \left\{
-\begin{array}{ll}
-      x  & \text{if} \: x \geq 0 \\
-    l \cdot x & \text{otherwise} \\
-\end{array}
-\right. |\:x \in \text{input} \}
+\text{Output} = \{
+\begin{cases}
+x,\: \text{if } x \geq l\\
+l \cdot x, \: \text{if } x < l
+\end{cases} \; | \; x \in \text{input}    
+\}
 $$
 
 
@@ -40,6 +39,4 @@ $$
 $$
 \text{Output} = \{\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}} \: | \: x \in \text{input} \}
 $$
-
-
 
