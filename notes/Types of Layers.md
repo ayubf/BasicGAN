@@ -7,7 +7,7 @@ Within the two neural networks in this project there are a few types of layers. 
 * Applies linear operation on an input vector such that given $W$ as the weight and $b$ as the bias term, 
 
 $$
-    \text{Output} = \{ W \cdot x + b  \: | \: x \in \text{input} \}
+    \text{Output} = \{ W \cdot x + b  \\ | \\ x \in \text{input} \}
 $$
 
 ## 2. [LeakyReLU](https://pytorch.org/docs/stable/generated/torch.nn.LeakyReLU.html#torch.nn.LeakyReLU)
@@ -17,9 +17,9 @@ $$
 $$
 \text{Output} = \{
 \begin{cases}
-x,\: \text{if } x \geq l\\
-l \cdot x, \: \text{if } x < l
-\end{cases} \; | \; x \in \text{input}    
+x,\\ \text{if } x \geq l\\
+l \cdot x, \\ \text{if } x < l
+\end{cases} \\ | \\ x \in \text{input}    
 \}
 $$
 
@@ -29,7 +29,7 @@ $$
 * Applies non-linear operation on an input vector such that,
 
 $$
-\text{Output} = \{ \: \frac{1}{1+ e^{-x}} \: | \: x \in \text{input} \}
+\text{Output} = \{ \\ \frac{1}{1+ e^{-x}} \\ | \\ x \in \text{input} \}
 $$
 
 ## 4. [Tanh](https://pytorch.org/docs/stable/generated/torch.nn.Tanh.html)
@@ -37,6 +37,6 @@ $$
 * Applies a non-linear operation on an input vector such that,
 
 $$
-\text{Output} = \{\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}} \: | \: x \in \text{input} \}
+\text{Output} = \{\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}} \\ | \\ x \in \text{input} \}
 $$
 
