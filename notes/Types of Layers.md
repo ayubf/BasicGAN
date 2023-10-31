@@ -1,6 +1,6 @@
 # Types of Layers
 
-Within the two neural networks in this project there are a few types of layers. Each layer performs a different operation given an input and yeilding an output using weights and bias terms of each node within the layer. These layers include:
+Within the two neural networks in this project, there are a few types of layers. Each layer performs a different operation given an input and yielding an output using weights and bias terms of each node within the layer. These layers include:
 
 ## 1. [Linear](https://pytorch.org/docs/stable/generated/torch.nn.Linear.html)
 * Linear transformation: takes a vector as an input and multiplies each value by the weight and adds bias term
@@ -11,7 +11,7 @@ $$
 $$
 
 ## 2. [LeakyReLU](https://pytorch.org/docs/stable/generated/torch.nn.LeakyReLU.html#torch.nn.LeakyReLU)
-* LeakyReLU: takes a vector as input and replaces all values less than the leak parameter are replaced by multiplying them by the leak parameter.
+* LeakyReLU: takes a vector as input and replaces all values less than the leak parameter by multiplying them by the leak parameter.
 * Applies non-linear operation on an input vector such that given $l$ as the leak parameter,
 
 $$
@@ -25,7 +25,7 @@ $$
 
 
 ## 3. [Sigmoid](https://pytorch.org/docs/stable/generated/torch.nn.Sigmoid.html)
-* Sigmoid function: takes any real number as input and squahses it into a number between 0 and 1
+* Sigmoid function: takes any real number as input and squashes it into a number between 0 and 1
 * Applies non-linear operation on an input vector such that,
 
 $$
